@@ -9,7 +9,8 @@ const pool = mysql.createPool({
   database: process.env.DB_NAME || 'digital_kooli_connect',
   waitForConnections: true,
   connectionLimit: 10,
-  dateStrings: true
+  dateStrings: true,
+  charset: 'utf8mb4'
 });
 
 async function query(sql, params = []) {

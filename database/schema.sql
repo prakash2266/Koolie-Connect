@@ -1,9 +1,10 @@
 -- Digital Kooli Connect — MySQL schema
 -- Run once: mysql -u root -p < schema.sql
 
-CREATE DATABASE IF NOT EXISTS digital_kooli_connect
+CREATE DATABASE IF NOT EXISTS bhobb7n8b5teluhmc97t
   CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE digital_kooli_connect;
+USE bhobb7n8b5teluhmc97t;
+SET NAMES utf8mb4;
 
 CREATE TABLE users (
   id CHAR(36) PRIMARY KEY,
